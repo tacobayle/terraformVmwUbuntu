@@ -53,7 +53,7 @@ variable "content_library" {
 variable "ubuntu" {
   type = map
   default = {
-    basename = "web-"
+    basename = "n3-web-"
     count = 2
     username = "ubuntu"
     cpu = 1
