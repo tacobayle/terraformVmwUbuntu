@@ -26,7 +26,7 @@ variable "gateway4" {
 }
 
 variable "nameservers" {
-  default = "172.18.0.15, 10.206.8.131"
+  default = "172.18.0.15, 172.18.0.16"
 }
 
 variable "ssh_key" {
