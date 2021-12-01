@@ -8,7 +8,7 @@ variable "vsphere_server" {}
 variable "vcenter" {
   type = map
   default = {
-    server        = ""
+    server        = "n3-vcsa-01.altherr.info"
     dc            = "N1-DC"
     cluster       = "N1-Cluster1"
     datastore     = "vsanDatastore"
