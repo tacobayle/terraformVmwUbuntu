@@ -53,7 +53,7 @@ variable "content_library" {
 variable "ubuntu" {
   type = map
   default = {
-    basename = "ubuntu-tf-"
+    basename = "web-"
     count = 2
     username = "ubuntu"
     cpu = 1
