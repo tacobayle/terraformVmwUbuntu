@@ -11,7 +11,7 @@ output "ubuntu_username" {
 }
 
 output "ubuntu_password" {
-  value = random_string.ubuntu_password.result
+  value = var.ubuntu_password == null ? random_string.ubuntu_password.result : var.ubuntu_password
 }
 
 output "ssh_private_key_path" {

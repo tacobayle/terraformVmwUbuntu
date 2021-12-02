@@ -3,6 +3,9 @@
 #
 variable "vsphere_username" {}
 variable "vsphere_password" {}
+variable "ubuntu_password" {
+  default = null
+}
 
 variable "vcenter" {
   type = map
