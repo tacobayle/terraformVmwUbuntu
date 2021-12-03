@@ -11,6 +11,10 @@ Spin up x Ubuntu host (with a basic apache server) in vCenter from content libra
 export TF_VAR_vsphere_username=******
 export TF_VAR_vsphere_password=******
 ```
+- Optionally, you can set the following environment variable, if set, this will be used as a password otherwise the password will be automatically generated:
+```
+export TF_VAR_ubuntu_password=******
+```
 
 ## Environment:
 
